@@ -5,3 +5,11 @@ G:\Git\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\bin\Debug\jianyisangu
 G:\Git\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\bin\Debug\jianyisanguozhi2jqb-cheat.pdb
 G:\Git\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb-cheat.exe
 G:\Git\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb-cheat.pdb
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb-cheat.exe
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb-cheat.pdb
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\bin\Debug\jianyisanguozhi2jqb-cheat.exe
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\bin\Debug\jianyisanguozhi2jqb-cheat.pdb
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb-cheat.csprojResolveAssemblyReference.cache
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb_cheat.FrmMain.resources
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb_cheat.Properties.Resources.resources
+G:\Git\github\jianyisanguozhi2jqb-cheat\jianyisanguozhi2jqb-cheat\obj\x86\Debug\jianyisanguozhi2jqb-cheat.csproj.GenerateResource.Cache
