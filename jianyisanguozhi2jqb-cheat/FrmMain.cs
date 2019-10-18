@@ -35,6 +35,7 @@ namespace jianyisanguozhi2jqb_cheat
         {
             List<string> lines = File.ReadLines("data/psn.zil", Encoding.Default).ToList();
             string reg = "^.+#$";
+            // 获取每个人物的信息
             Dictionary<string, List<string>> dic = new Dictionary<string, List<string>>();
             string lineItem = "";
             List<string> lineList = null;
@@ -67,6 +68,7 @@ namespace jianyisanguozhi2jqb_cheat
             {
                 lbPerson.Items.Add(psnName);
             }
+            // 将人物信息绑定到 lbPerson 控件上，方便之后调用
             lbPerson.Tag = dic;
         }
 
@@ -84,7 +86,7 @@ namespace jianyisanguozhi2jqb_cheat
                 }
             }
 
-            Dictionary<string, List<string>> dic = (Dictionary<string, List<string>>)lbPerson.Tag;
+            Dictionary<string, List<string>> dic = lbPerson.Tag as Dictionary<string, List<string>>;
             List<string> psn = dic[psnName];
             string[] psnInfo = psn[0].Split('#');
             lblPsnName.Text = psnInfo[0];
@@ -118,7 +120,6 @@ namespace jianyisanguozhi2jqb_cheat
             txt智力.Text = psnInfo[7];
             txt政治.Text = psnInfo[8];
             txt魅力.Text = psnInfo[9];
-            txt单挑.Text = psnInfo[10];
             switch (psnInfo[10])
             {
                 case "0":
@@ -138,7 +139,6 @@ namespace jianyisanguozhi2jqb_cheat
                     txt单挑.Text = @"极";
                     break;
             }
-            txt军师.Text = psnInfo[11];
             switch (psnInfo[11])
             {
                 case "0":
@@ -215,7 +215,7 @@ namespace jianyisanguozhi2jqb_cheat
             fs.Close();
         }
 
-        //搜索人物
+        //搜索人物，在人物文本框按下按键时
         private void txtPsnName_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
@@ -229,7 +229,7 @@ namespace jianyisanguozhi2jqb_cheat
             }
         }
 
-        //查看人物
+        //查看人物，选择左侧列表不同项时
         private void lbPerson_SelectedIndexChanged(object sender, EventArgs e)
         {
             GetPersonInfo(lbPerson.SelectedItem.ToString());
